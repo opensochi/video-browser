@@ -1,0 +1,107 @@
+.scopeview {
+    display: table-cell;
+    width: 960px;
+}
+    .scopeview > .sidebar {
+        float: left;
+        width: 300px;
+    }
+    .scopeview > .container {
+        display: table;
+        min-width: 660px;
+    }
+        .scopeview > .container > .displays-chooser {
+            float: right;
+            list-style: none;
+            margin: 15px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #C1CCBA;
+        }
+            .scopeview > .container > .displays-chooser > li {
+                display: inline-block;
+                width: 32px;
+                height: 32px;
+                cursor: pointer;
+                margin: 0 2px;
+                background-repeat: no-repeat;
+                background-position: center center;
+                border-radius: 5px;
+            }
+                .scopeview > .container > .displays-chooser > li:hover {
+                    background-color: #3a95d7;
+                }
+                .scopeview > .container > .displays-chooser > li.current {
+                    background-color: #eff2e1;
+                }
+                .scopeview > .container > .displays-chooser > li.list {
+                    background-image: url('../images/sv_list_ds.png');
+                }
+                .scopeview > .container > .displays-chooser > li.sphere {
+                    background-image: url('../images/sv_sphere_ds.png');
+                }
+
+        .scopeview > .container > .title {
+            font-size: 1.4em;
+            font-weight: bold;
+            padding: 20px 10px 5px 40px;
+        }
+        .scopeview > .container > .description {
+            font-size: 0.9em;
+            padding: 0 10px 5px 40px;
+        }
+        .scopeview > .container > .display {
+        }
+
+
+.sv-listdisplay {
+    color: #DBFBFF;
+    padding: 30px;
+}
+    .sv-listdisplay > .error {
+        background-color: #fe2316;
+        color: #fefefe;
+        font-weight: bold;
+        font-size: 1.6em;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 5px;
+        border: 1px solid red;
+    }
+        
+    .sv-listdisplay > .items > li {
+        -moz-box-sizing: padding-box;
+        border-bottom: 1px solid transparent;
+        border-top: 1px solid transparent;
+        display: inline-block;
+        margin: 10px 0;
+        padding: 5px 10px;
+        text-align: left;
+        width: 100%;
+    }
+        .sv-listdisplay > .items > li:hover {
+            background-color: #EFF2E1;
+            border-radius: 5px 5px 5px 5px;
+        }
+        .sv-listdisplay > .items > li > .icon {
+            float: right;
+            display: block;
+            margin: 5px 10px;
+        }
+            .sv-listdisplay > .items > li:hover > .icon {
+                background-color: #FF6600 !important;
+                color: #EFF2E1 !important;
+            }
+        
+        .sv-listdisplay > .items > li > .title {
+            font-size: 1.2em;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+            
+        .sv-listdisplay > .items > li > .description {
+            color: #3B6575;
+        }
+            .sv-listdisplay > .items > li:hover .description {
+                color: #FF6600;
+            }

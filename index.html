@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>video.opensochi.org</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="fragment" content="!" />
+    <!--[if lt IE 9]>
+        <mce:script mce_src="http://html5shim.googlecode.com/svn/trunk/html5.js"></mce:script>
+    <![endif]-->
+
+    <!-- CSS файлы -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/scopeview.css" rel="stylesheet" type="text/css" />
+    <link href="css/playlists.css" rel="stylesheet" type="text/css" />
+    <link href="css/smartpaginator.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
+    
+    <!-- Сторонние JS библиотеки -->
+    <script src="lib/jquery-1.6.2.min.js"></script>
+    <script src="lib/jquery.cookies.2.2.0.min.js"></script>
+    <script src="lib/smartpaginator.js"></script>
+    <script src="lib/underscore.js"></script>
+    <script src="lib/backbone.js"></script>
+    <script src="lib/json2.js"></script>
+    <script src="lib/mobilyblocks.js"></script>
+    <script src="lib/leaflet/leaflet.js"></script>
+    
+    <!-- API сервисов -->
+    <script type="text/javascript" src="http://yandex.st/share/share.js" charset="utf-8"></script> 
+    <script type="text/javascript" src="http://userapi.com/js/api/openapi.js?34"></script>
+    <script type="text/javascript">
+        VK.init({apiId: 2479921, onlyWidgets: true});
+    </script>
+    
+	<!-- Собственные скрипты -->
+    <script src="js/utils.js"></script>
+    <script src="js/jquery.roundicon.js"></script>
+    <script src="js/YTData.js"></script>
+    <script src="js/Blogger.js"></script>
+    <script src="js/DisplaySystem.js"></script>
+
+    <!-- Приложение -->
+    <script src="js/App.js"></script>
+    <script src="js/app/controllers/application.js"></script>
+    <script src="js/app/models/video.js"></script>
+    <script src="js/app/views/video.js"></script>
+    <script src="js/app/views/page.js"></script>
+    <script src="js/app/views/loading.js"></script>
+
+    <script src="js/ScopeView.js"></script>
+    <script src="js/ScopeViewListDisplay.js"></script>
+
+    <script src="js/ErrorView.js"></script>
+
+    <script src="script.js"></script>
+
+    <script>
+        $(function () {
+            $('#intro').appendTo('#backstage');
+            App.init();
+        });
+    </script>
+    
+</head>
+<body>
+
+    <div id="header-wrap">
+        <div id="header">
+            <a href="#" class="title">
+                <span class="video">VIDEO.</span><span class="opensochi">OpenSochi.</span><span class="org">ORG</span>
+            </a>
+            <!-- search -->
+            <div id="search-wrap">
+            	<form onsubmit="return false">
+					<input type="text" class="search-box" name="s" />
+					<input type="image" src="images/search.png" class="search-box_submit" alt="GO" />
+				</form>
+			</div>
+        </div>
+    </div>
+
+    <div id="wrap">
+    	<div id="content">
+            <!-- Здесь контент -->
+
+            <div id='intro'>
+                Посетите наш канал на YouTube: <a href='http://www.youtube.com/opensochi' >youtube.com/opensochi</a>
+            </div>
+
+            <noscript id="noscript">
+                Пожалуйста включите поддержку JavaScript в вашем браузере и обновите страницу.<br />
+                Либо посетите наш канал на YouTube для просмотра видеороликов:
+                <a href='http://www.youtube.com/opensochi' >youtube.com/opensochi</a>.
+            </noscript>
+            <script>$('#intro').hide();</script>
+        </div>
+    </div>
+
+    <div id="footer-wrap">
+        <div id="footer">
+            <!-- тёмный подвал -->
+            <a href="#!/playlists">Рубрики</a>
+            <a href="#!/videos" title="Все видеозаписи на нашем канале">Все видео</a>
+            <a href="#!/page/5841016188772697349">О Нас</a>
+            <a href="#!/spo" title="Свободное програмное обеспечение">СПО</a>
+        </div>
+    </div>
+
+    <div id=backstage style='display: none;'>
+
+    </div>
+    
+</body>
+</html>

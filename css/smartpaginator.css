@@ -1,0 +1,92 @@
+﻿.pager
+{
+	width: 100%;
+	height: 30px;
+	padding: 0;
+	margin: 0;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-top: 1px solid white;
+}
+.pager div.short
+{
+	float: right;
+	margin: 0;
+	padding: 0;
+	margin-right: 10px;
+	width: 84px;
+}
+    .pager div.short input
+    {
+        width: 30px;
+        border: none;
+        margin-left: 8px;
+        float: left;
+        border-radius: 3px;
+        font-size: 0.8em;
+        padding: 1px 2px;
+    }
+    
+.pager ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-right: 4px;
+}
+.pager ul li
+{
+	display: inline;
+	margin-left: 2px;
+}
+
+.pager ul li a.normal
+{
+    border-radius: 50% 50% 50% 50%;
+    display: inline-block;
+    height: 24px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 24px;
+}
+
+.pager span
+{
+	margin-left: 4px;
+	color: White;
+	float: left;
+}
+.pager .btn
+{
+    background-color: #0099FF;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    margin: 0 0 0 4px;
+    padding: 4px 5px;
+    text-align: center;
+}
+    .pager .btn:hover {
+        background-color: #FF8229;
+    }
+
+.pager ul li a.active
+{
+	text-decoration: none;
+    color: #ff6600;
+}
+
+
+.pager ul li a:hover {
+    background-color: #09f;
+    color: white;
+}
+
+    .pager ul li a.active:hover
+    {
+        background-color: #FF8229;
+    }
+    

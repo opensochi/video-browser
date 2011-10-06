@@ -1,0 +1,367 @@
+/*
+http://zhestokosti.net
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+ul, ol {padding-left: 20px;}
+
+body {
+    margin: 0px;
+    font-family: TitilliumText14L400wt,"Helvetica Neue",Arial,sans-serif;
+    font-size: 13px;
+    color: #333333;
+}
+
+h1 {
+    margin-top: 3px; margin-bottom: 3px;
+    font-size: 2em;
+}
+
+h2 {
+    margin-top: 5px; margin-bottom: 10px;
+    font-size: 1.7em;
+}
+
+h3 {
+    margin-top: 3px; margin-bottom: 3px;
+    font-size: 1.5em;
+}
+
+h4 {
+    margin-top: 2px; margin-bottom: 2px;
+    font-size: 1.4em;
+}
+
+h5 {
+    margin-top: 2px; margin-bottom: 2px;
+    font-size: 1.3em;
+}
+
+h6 {
+    margin-top: 2px; margin-bottom: 2px;
+    font-size: 1.2em;
+}
+
+p, ol, ul, dl, blockquote {
+    margin: 0 0 10px 0;
+}
+
+a {
+    color: #09f;
+    padding: 3px;
+}
+
+    a:hover {
+        text-decoration: none;
+        color: white;
+        background-color: #09f;
+        border-radius : 4px;
+        box-shadow: inset 0 0 10px #eff2e1;
+    }
+
+img {
+    border: 0;}
+
+
+body {
+    background-color: black;
+    background-image: url("../images/bg3.jpg");
+    background-position: left top;
+    background-repeat: repeat-x;
+}
+
+#noscript {
+    background-color: #fea4a4;
+    padding: 5px;
+    border: 2px solid #970202;
+    color: #870101;
+    font-size: 1.3em;
+    display: block;
+    text-align: center;
+    text-shadow: 0 0 4px white;
+}
+
+/******************* jquery.roundicon *******************/
+.round-icon {
+    color : #FF6600;
+    background-color : #EFF2E1;
+    border-radius : 50% !important;
+    -moz-border-radius: 50% !important; /* Firefox */
+    -webkit-border-radius: 50% !important; /* Safari, Chrome */
+    -khtml-border-radius: 50% !important; /* KHTML */
+}
+
+a.round-icon {
+    text-decoration: none;
+}
+
+/******************** #header **************************/
+
+#header-wrap {
+    background-color: transparent;
+    margin: 20px 0 0 0;
+}
+	
+	#header {
+        background-image: url("../images/header.gif");
+        box-shadow: 0pt 4px 0px black;
+        height: 64px;
+        margin: 0px auto;
+        min-height: 42px;
+        padding: 0px 0pt;
+        width: 960px;
+        z-index: 45;
+        border-radius: 10px 10px 0 0;
+    }
+	
+		#header .title {
+            background-color: black;
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: 1px 1px 3px white;
+            display: inline-block;
+            font-size: 2em;
+            margin: 10px 0pt 0pt 10px;
+            padding: 4px 10px;
+            text-shadow: 1px 1px 8px #2AA7FF;
+            font-weight: bold;
+		}
+            #header .title:hover {
+                text-decoration: underline;
+                color: #2aa7ff;
+                background-color: #003;
+            }
+			
+			#header .title .video {
+			    color: #2aa7ff;
+			}
+			
+			#header .title .opensochi {
+			    color: #ff8229;
+			}
+			
+			#header .title .org {
+			    color: white;
+			}
+
+		/********************** Search *********************/
+		/* fork - http://zenverse.net/create-a-fancy-search-box-using-css/ */
+		#search-wrap {
+             background-color: #EFF2E1;
+             border-radius: 5px 5px 5px 5px;
+             box-shadow: 1px 1px 2px black;
+             display: inline-block;
+             float: right;
+             margin: 10px 20px 0pt 0pt;
+             padding: 2px 0px 2px 6px;
+             position: relative;
+		}
+		 
+			#search-wrap form {}
+		 
+			#search-wrap .search-box {
+                background: none repeat scroll 0% 0% transparent;
+                border: 0px none;
+			}
+			 
+			#search-wrap .search-box_submit {
+                background-color: transparent;
+                border: 0px none;
+                margin: 2px 10px 0 0;
+			}
+
+			#search-wrap .search-box_submit:focus {
+				outline: none;
+			}
+
+/***************** Content ************************/
+
+#wrap {
+    width: 960px;
+    margin: 0px auto;
+    vertical-align: top;
+    border: none;
+    border-collapse: collapse;
+}
+	
+	#content {
+        background-color: #e0e4cc;
+        background-color: rgba(224, 228, 204, 0.92);
+        background-image: url(../images/content-bg.png);
+        background-repeat: repeat-x;
+        background-position: left top;
+        color: #445;
+        vertical-align: top;
+	}
+
+
+/**************** Footer ***************************/
+
+#footer-wrap {
+    width: 100%;
+}
+	
+	#footer {
+        background-color: black;
+        background-image: url("../images/footer.png");
+        border-radius: 0pt 0pt 10px 10px;
+        margin: 0px auto 30px;
+        padding: 20px 0px 20px 0pt;
+        vertical-align: middle;
+        width: 960px;
+	}
+    
+        #footer > a {
+            margin: 0 10px;
+            padding: 4px 5px;
+            border-radius: 3px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+            #footer > a:hover {
+                background-color: #FF8229;
+                color: white;
+                text-shadow: 0 1px 1px black;
+            }
+
+
+/****************** loading-view **************************/
+.loading-view {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+	
+
+/****************** error-view **************************/
+.error-view {
+    background-color: #fa7777;
+    background-color: rgba(240, 100, 100, 0.8);
+    padding: 100px 0;
+    text-align: center;
+}
+
+
+
+/****************** PageView *************************/
+.page-view {
+    padding: 10px 0;
+}
+
+	.page-view > .title {
+		font-weight: bold;
+		padding: 10px 20px;
+		font-size: 1.8em;
+		color: #0092fa;
+		border-bottom: 1px solid #A7DBD8;
+	}
+	
+	.page-view > .content {
+		padding: 20px;
+		margin: 20px;
+		font-size: 1.8em;
+		font-size: 1.2em;
+		border: 1px solid #A7DBD8;
+		border-radius: 5px;
+		background-color: #EFF2E1;
+	}
+
+
+/****************** VideoView *************************/
+.video-view {
+	min-height: 600px;
+	display: inline-block;
+}
+
+	.video-view .title {
+		font-weight: bold;
+		padding: 10px 15px;
+		font-size: 1.8em;
+		color: #0092fa;
+		border-bottom : 1px solid #A7DBD8;
+        text-shadow : 1px 1px 1px white;
+	}
+
+	.video-view .l-column {
+		float: left;
+		width: 600px;
+	}
+	
+	.video-view .r-column {
+		float: right;
+		width: 360px;
+	}
+	
+	.video-view .player {
+		width: 100%;
+		height: 400px;
+		background-color: black;
+	}
+	
+	.video-view .description {
+        color: #ff8229;
+		padding: 15px;
+		margin: 0 0 10px 0;
+		font-size: 1.1em;
+		border-bottom: 1px solid #FFB580;
+	}
+
+    .video-view .socialbuttons {
+        border-left: 1px solid #0099FF;
+        margin: 0 auto;
+        padding: 0 10px;
+        width: 90%;
+    }
+
+    .video-view .shareinputs {
+        padding: 10px 20px 0 10px;
+        display: inline-block;
+        width: 340px;
+        margin: 0 auto;
+    }
+    
+        .video-view .shareinputs span { }
+    
+        .video-view .shareinputs input {
+            width:100%;
+            background-color: #EFF2E1;
+            border-radius: 3px;
+            border: 1px solid #0099FF;
+            margin: 5px 0 10px;
+            font-size: 1em;
+        }
+        
+    .video-view .map {
+        width: 96%;
+        height: 400px;
+        margin: 0 auto 20px auto;
+    }
+
+/** блок вступительного текста на главной */
+#intro {
+    background-color: #EFF2E1;
+    color: #555555;
+    padding: 20px;
+}
+
+.sidebar > #intro {
+    border-radius: 20px 20px 20px 20px;
+    margin: 20px 0pt 0pt 20px;
+}

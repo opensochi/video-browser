@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="js/app/views/|js/|lib/|js/app/models/|lib/leaflet/|js/app/controllers/" kind="src" path=""/>
+	<classpathentry excluding="app/views/|app/models/|app/controllers/" kind="src" path="js"/>
+	<classpathentry kind="src" path="js/app/controllers"/>
+	<classpathentry kind="src" path="js/app/models"/>
+	<classpathentry kind="src" path="js/app/views"/>
+	<classpathentry excluding="leaflet/" kind="src" path="lib"/>
+	<classpathentry kind="src" path="lib/leaflet"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
